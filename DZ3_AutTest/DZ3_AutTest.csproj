@@ -53,8 +53,14 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Framework\Selenium.cs" />
+        <Compile Include="Framework\Settings.cs" />
+        <Compile Include="Framework\Wait.cs" />
+        <Compile Include="PageObject\MainPage.cs" />
+        <Compile Include="PageObject\PageObjectBase.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Tests\BaseTest.cs" />
+        <Compile Include="Tests\SearchingTest.cs" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Dependencies" />
