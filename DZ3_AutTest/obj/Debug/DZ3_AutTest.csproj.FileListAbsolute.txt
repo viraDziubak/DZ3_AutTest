@@ -14,3 +14,4 @@ D:\SET\DZ_3_AT\DZ3_AutTest\DZ3_AutTest\bin\Debug\WebDriver.xml
 D:\SET\DZ_3_AT\DZ3_AutTest\DZ3_AutTest\obj\Debug\DZ3_AutTest.csproj.CopyComplete
 D:\SET\DZ_3_AT\DZ3_AutTest\DZ3_AutTest\obj\Debug\DZ3_AutTest.exe
 D:\SET\DZ_3_AT\DZ3_AutTest\DZ3_AutTest\obj\Debug\DZ3_AutTest.pdb
+D:\SET\DZ_3_AT\DZ3_AutTest\DZ3_AutTest\bin\Debug\WebDriver.Support.dll
