@@ -1,21 +1,29 @@
 ﻿using System;
+using System.Linq;
+using DZ3_AutTest.Framework;
+using DZ3_AutTest.PageObject;
 using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 
 namespace DZ3_AutTest.Tests
 {
-    [TestFixture]
-    public class BaseTest
+    public abstract class BaseTest
     {
-        static void Main (string[] args)
+        protected readonly IWebDriver Driver;
+       
+        protected BaseTest()
         {
+            Driver = Selenium.GetDriver(Settings.Driver);
+            Driver.Navigate().GoToUrl(Settings.Url);
         }
-        [Test]
-        public void Test()
+        static void Main ()
         {
-            Console.WriteLine("hbh");
-        } 
+            
+        }
+        
+        [OneTimeTearDown]
+        public void OneTimeTearDown() => Driver.Quit();
     }
-
-   
-    
 }
